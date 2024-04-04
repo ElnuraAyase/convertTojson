@@ -15,6 +15,17 @@ class TaskManager:
     def save_to_json(self, filename):
         with open(filename, 'w') as file:
             json.dump(self.tasks, file)
+   @classmethod
+    def load_from_json(cls, filename):
+        with open(filename, 'r') as file:
+            data = json.load(file)
+            task_manager = cls()
+            task_manager.tasks = data
+            return task_manager
+
+# Example usage:
+task_manager = TaskManager()
+task_manager.add_task("Task 1", "Description of Task 1")
 
 
 
