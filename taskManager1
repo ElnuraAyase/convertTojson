@@ -1,1 +1,17 @@
+import json
+
+class TaskManager:
+    def __init__(self):
+        self.tasks = []
+
+    def add_task(self, name, description):
+        self.tasks.append({"name": name, "description": description})
+
+    def remove_task(self, name):
+        self.tasks = [task for task in self.tasks if task["name"] != name]
+
+    def list_tasks(self):
+        return self.tasks
+
+
 
