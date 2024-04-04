@@ -19,4 +19,3 @@ print(loaded_tasks)  # Output: [{'name': 'Task 1', 'description': 'Description o
 import json
 
 
-
