@@ -1,1 +1,9 @@
+import json
+
+# Sample tasks
+tasks = [
+    {"name": "Task 1", "description": "Description of Task 1"},
+    {"name": "Task 2", "description": "Description of Task 2"}
+]
+
 
