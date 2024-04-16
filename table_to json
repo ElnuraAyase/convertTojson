@@ -2,9 +2,13 @@
         "Title": " Hobbit",
         "Author": "J.r Tolkien",
         "Published year": 1937,
-        "Genre": "Fantesy"
+        "Genre": "Fantasy"
     },
     {
-        "Title": "To Killa Mockingbird",
+        "Title": "To Kill a Mockingbird",
+                "Author": "Harper Lee",
+        "Published Year": 1960,
+        "Genre": "Fiction
+    }
  
   
