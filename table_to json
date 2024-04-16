@@ -9,12 +9,10 @@
                 "Author": "Harper Lee",
         "Published Year": 1960,
         "Genre": "Fiction",
-    }
- 
-  
+    },
     {
         "Title": "1984",
-        "Author": "GeorgeOrwell",
+        "Author": "George  Orwell",
         "Published Year": 1949,
         "Genr": "Distopian"
     }
